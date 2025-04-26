@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Egg Seller 🥚</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🥚 Welcome to Eggcellent Eggs!</h1>
+
+  <button id="offerBtn">Click for Today’s Offer</button>
+  <p id="offerText"></p>
+
+  <div class="gallery">
+    <img src="https://images.stockcake.com/public/6/d/b/6db80376-ab60-4aab-8468-b32116e4b58c_large/fresh-hen-eggs-stockcake.jpg" class="gallery-img" />
+    <img src="https://images.stockcake.com/public/d/5/1/d51fc35a-a8cd-4176-b6ed-e641c40f7710_large/eggs-in-sunlight-stockcake.jpg" class="gallery-img" />
+    
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-target="details">Product Details</button>
+    <button class="tab" data-target="reviews">Customer Reviews</button>
+  </div>
+  <div id="details" class="tab-content active">Fresh eggs sourced locally. Packed with love 🐓</div>
+  <div id="reviews" class="tab-content">⭐⭐⭐⭐⭐ - "These eggs changed my life!" - Joy M.</div>
+
+  <form id="contactForm">
+    <h3>Contact Us</h3>
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Send</button>
+    <p id="formMsg"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+<footer>© Joel Ngari. All rights reserved.</footer>
+</html>
